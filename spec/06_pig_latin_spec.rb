@@ -7,11 +7,12 @@ describe "#translate" do
     expect(s).to eq("appleay")
   end
 
+
   it "translates a word beginning with a consonant" do
     s = translate("banana")
     expect(s).to eq("ananabay")
   end
-
+=begin  
   it "translates a word beginning with two consonants" do
     s = translate("cherry")
     expect(s).to eq("errychay")
@@ -49,5 +50,8 @@ describe "#translate" do
   # Test-driving bonus:
   # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
   # * retain the punctuation from the original phrase
+=end
 
 end
+
+

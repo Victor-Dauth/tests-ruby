@@ -49,7 +49,7 @@ describe 'crazy stuff on arrays' do
   # - sorted
   # BONUS : You can do this in one line less than 55 chars
   it 'does crazy stuff on Arrays' do
-    expect(magic_array([1, 2, 3, 4, 5, 6]))
+    expect(magic_array([1, 3, 2, 4, 5, 6]))
       .to eq([2, 4, 8, 10])
     expect(magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]]))
       .to eq([2, 4, 8, 10, 46, 62])
